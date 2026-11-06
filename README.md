@@ -1,97 +1,340 @@
-# NexaBridge AI — Secure Enterprise AI Integration Hub
+# 🌐 NexaBridge AI
+### Bridging Enterprise Systems with the Power of Artificial Intelligence
 
-**Nexever AI Integration Internship · Task 02**
+**Built with Innovation, Powered by AI, Engineered for Secure Intelligence.**
 
-A Flask-based, interactive enterprise integration **demonstration** with five synthetic connectors (email, drive, ticketing, CRM, chat), role-based record access, a local question-answer assistant, SQLite audit events, and a basic sensitive-pattern scanner.
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Groq%20Powered-00D4FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-Python%20%7C%20Flask-3776AB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-F7DF1E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deployment-Render-46E3B7?style=for-the-badge" />
+</p>
 
-## Quick start (Windows)
+<p align="center">
+  <a href="https://nexabridge-ai.onrender.com">
+    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Explore_NexaBridge_AI-00D4FF?style=for-the-badge" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/rohanbhowm25308/NexaBridge-AI">
+    <img src="https://img.shields.io/badge/⭐_GITHUB-Source_Code-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  </a>
+</p>
 
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-copy .env.example .env
+---
+
+## 🚀 The Vision
+
+**What if enterprise intelligence could exist in one connected workspace?**
+
+Modern organizations depend on emails, cloud storage, customer platforms, ticketing systems, and collaboration tools. But fragmented information creates unnecessary complexity.
+
+**NexaBridge AI** is an AI-powered enterprise integration demonstration designed to bring data intelligence, controlled information access, workflow simulation, and conversational AI together in a unified environment.
+
+Developed during my **AI Integration Internship at Nexever**, this project explores how intelligent applications can combine automation, usability, and security-aware architecture.
+
+> **One Intelligent Bridge. Five Enterprise Connections. A Smarter Way to Work.**
+
+---
+
+## 🌍 Live Application
+
+### 🚀 Experience NexaBridge AI
+
+**Live Website:** https://nexabridge-ai.onrender.com
+
+**GitHub Repository:** https://github.com/rohanbhowm25308/NexaBridge-AI
+
+Explore the platform by creating an account, uploading sample datasets, interacting with the AI Assistant, and testing the simulated enterprise workflows.
+
+---
+
+## ✨ Core Features
+
+###  01 — Enterprise AI Assistant
+- Groq-powered conversational AI.
+- Ask general questions and analyze selected documents.
+- Context-aware responses using authorized demonstration data.
+- Interactive, responsive chat interface.
+
+###  02 — Voice-Powered AI Interaction
+- Microphone-enabled question input.
+- Automatic speech-to-text transcription.
+- Edit recognized text before submitting.
+- Browser-based voice recognition support.
+
+###  03 — Enterprise Integration Hub
+
+Explore five enterprise connector simulations:
+
+| Integration | Function |
+|---|---|
+|  Email | Communication data exploration |
+|  Drive | Document and file access |
+|  Ticketing | Support workflow exploration |
+|  CRM | Customer record demonstrations |
+|  Chat | Collaboration data exploration |
+
+These connectors use synthetic demonstration records rather than live external company accounts.
+
+###  04 — Dynamic Analytics Dashboard
+- Upload CSV datasets.
+- Automatically update dashboard statistics.
+- Explore rows, columns, and missing values.
+- Generate visual insights.
+- Preview and search dataset records.
+
+###  05 — AI Data Guardian
+- Inspect uploaded document content.
+- Detect common sensitive-information patterns.
+- Generate redacted previews.
+- Promote awareness of privacy risks before AI processing.
+
+###  06 — AI Workflow Studio
+- Run simulated enterprise workflows.
+- Explore automation stages.
+- Review workflow execution history.
+- Understand how business processes can be orchestrated.
+
+###  07 — AI Insight Forge
+- Analyze CSV data quality.
+- Discover useful dataset patterns.
+- Generate local analytical findings.
+- Request optional Groq-powered recommendations.
+
+###  08 — Security & Audit Center
+- Session-based user authentication.
+- Role-based access demonstrations.
+- CSRF protection.
+- Access restrictions for simulated records.
+- Audit logging.
+- Sensitive-text scanning.
+
+---
+
+##  System Architecture
+
+```text
+                    ┌──────────────────────┐
+                    │     NEXABRIDGE AI    │
+                    │    Enterprise Hub    │
+                    └──────────┬───────────┘
+                               │
+                    ┌──────────▼───────────┐
+                    │    Frontend Layer    │
+                    │   HTML · CSS · JS    │
+                    └──────────┬───────────┘
+                               │
+                    ┌──────────▼───────────┐
+                    │    Flask Backend     │
+                    │ Authentication & API │
+                    └──────────┬───────────┘
+                               │
+             ┌─────────────────┼─────────────────┐
+             │                 │                 │
+      ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
+      │  Groq AI    │   │ Data Engine │   │  Security   │
+      │ Assistant   │   │ CSV & Files │   │  Policies   │
+      └─────────────┘   └─────────────┘   └─────────────┘
+             │                 │                 │
+             └─────────────────┼─────────────────┘
+                               │
+                    ┌──────────▼───────────┐
+                    │ Enterprise Demo Hub  │
+                    │ Email · Drive · CRM  │
+                    │ Tickets · Team Chat  │
+                    └──────────────────────┘
 ```
 
-Edit `.env` and replace all four placeholders with strong values. Then run:
+---
+
+##  Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Python, Flask |
+| AI Integration | Groq API |
+| Database | SQLite |
+| Data Analytics | Python, CSV processing |
+| Voice Recognition | Web Speech API |
+| Deployment | Render, Gunicorn |
+| Version Control | Git, GitHub |
+
+---
+
+##  User Experience
+
+NexaBridge AI features a futuristic, enterprise-inspired interface with:
+
+- Dark navy and electric-blue styling.
+- Animated circuit-line background.
+- Interactive navigation and smooth section transitions.
+- Responsive dashboard cards.
+- Dynamic file-upload summaries.
+- Accessible voice input controls.
+
+The design combines a modern AI aesthetic with practical data exploration.
+
+---
+
+##  Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/rohanbhowm25308/NexaBridge-AI.git
+cd NexaBridge-AI
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Windows:
 
 ```powershell
+venv\Scripts\activate
+```
+
+macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file using `.env.example` as a reference.
+
+```env
+GROQ_API_KEY=your_groq_api_key
+SECRET_KEY=your_secure_random_secret
+```
+
+Set any additional variables required by your deployment.
+
+**Never commit API keys or secret credentials to GitHub.**
+
+### 5. Start the Application
+
+```bash
 python app.py
 ```
 
-Open `http://127.0.0.1:5000` and log in as employee, manager, or admin with the corresponding password from `.env`.
+Open the local address shown in the terminal, typically:
 
-## What works
+`http://127.0.0.1:5000`
 
-- Login/logout and server-side session role checks.
-- Five local sample connectors and per-record classification checks.
-- Local deterministic question-answering over permitted synthetic data; no LLM API or outbound model request.
-- Server-side denial for unauthorized connector and audit access.
-- SQLite audit trail of key actions and authorization decisions.
-- Basic input pattern blocking and redaction test panel.
-- Responsive dark dashboard and interactive architecture diagram.
+---
 
-## Important limitations
+##  Deployment
 
-**This is a prototype, not a production-secure enterprise connector platform.** It does not connect to Gmail, Google Drive, Jira, Salesforce, or Slack. It does not implement real OAuth/SSO, provider ACLs, token vault, enterprise DLP, human approvals, production SIEM, or external AI model inference. Demo password authentication is for local use only. The local DLP regex is incomplete and must not be relied on to protect real secrets. Do not upload or paste real confidential company data.
+NexaBridge AI is deployed using **Render**.
 
-For deployment: use HTTPS, COOKIE_SECURE=1, a durable secret, a production WSGI server, managed storage, robust authentication, rate limits, central audit logging, secure secrets management, and a formal security review. Do not deploy the demo as an internet-accessible system without these protections.
+**Live Deployment:**
 
-## Suggested validation
+https://nexabridge-ai.onrender.com
 
-1. Employee can view internal Email records but cannot access CRM.
-2. Manager can access confidential CRM records but not restricted records.
-3. Admin can inspect audit events; Employee cannot.
-4. Enter `api_key=demo123` in the scanner and verify a blocked/redacted result.
-5. Ask the assistant to summarize a connector; verify that restricted sample records are absent.
+Render build command:
 
-## Architecture
+```bash
+pip install -r requirements.txt
+```
 
-User → Flask session + CSRF gate → role/record policy → local assistant / synthetic connectors → authorized records. Each operation logs a structured event in SQLite.
+Render start command:
 
-See `ARCHITECTURE.md` for the formal integration design and production roadmap.
+```bash
+gunicorn app:app --bind 0.0.0.0:$PORT
+```
 
+Configure `GROQ_API_KEY` and `SECRET_KEY` in Render's environment settings.
 
-### Demo login (local only)
-A `.env` file is included with Employee / `Employee@2026`, Manager / `Manager@2026`, and Administrator / `Admin@2026`. Change these before sharing or deploying. Never commit `.env` to Git.
+**Storage note:** Local SQLite databases and uploaded files may be lost on hosting instances without persistent storage.
 
-### Animated background
-The site streams the reference video from the supplied CloudFront URL; internet access and an available URL are required. If it is unavailable, the original animated dotted background remains visible.
+---
 
+##  Responsible AI & Data Privacy
 
-## Open self-registration (updated)
-Anyone can register a unique username and password (8+ characters), then sign in. Passwords are hashed in SQLite and are **not** stored in `.env`. All self-registered accounts receive the **Employee** role, not Admin or Manager. To create a local admin for audit log demonstrations, uncomment and configure `DEMO_ADMIN_USERNAME` and `DEMO_ADMIN_PASSWORD` in `.env` before starting the app for the first time. Do not use demo secrets in production.
+NexaBridge AI is an educational and internship demonstration.
 
-If you already ran an earlier version, you can retain the existing `nexabridge.db`; the `users` table is added automatically. Restart Flask after extracting. This is a local internship demo, not production-ready public authentication (add rate limiting, email verification, HTTPS, account recovery and SSO before deployment).
+- Enterprise connectors operate on synthetic records.
+- The AI Assistant can send selected uploaded content to Groq.
+- Sensitive-pattern detection is not a guarantee of complete privacy protection.
+- Data Guardian previews do not automatically enforce redaction in AI requests.
+- Real confidential, regulated, or company-sensitive information should not be uploaded.
+- Production use would require stronger authentication, persistent storage, and additional security controls.
 
+---
 
-## Cyber Circuit background
-The background uses `static/circuit.js` and HTML Canvas. It is animated locally and does not require CloudFront or an MP4. Reduced-motion preferences are respected.
+##  Internship Experience
 
+**Company:** Nexever  
+**Internship Role:** AI Integration  
+**Project:** NexaBridge AI  
+**Assignment:** Internship Task 02
 
-## Email-based registration (updated)
-New users register and sign in using an email address and password (8–128 characters).
-No username is needed. Existing SQLite databases are automatically migrated to add an email column; legacy username-only accounts can still sign in with their old username.
-If you want a fresh database, stop Flask and delete `nexabridge.db` (this also deletes all demo accounts and audit history).
-The app remains a local demo, not a production-ready identity provider. Email ownership is not verified; deploy only after adding verification, throttling, HTTPS and account recovery.
+Through this project, I explored practical concepts involving:
 
+- AI integration with full-stack web applications.
+- Enterprise-style connector architecture.
+- API-driven intelligent assistance.
+- Data processing and visualization.
+- Security-aware workflow design.
+- Cloud application deployment.
 
-## Groq and private document uploads
-Install dependencies, set `GROQ_API_KEY` in `.env`, and restart Flask. Go to Integrations to upload TXT/MD/CSV/JSON/PDF/DOCX/XLSX files (5 MB limit), then AI Assistant > My uploaded files, check desired documents, and ask a question. Files are stored as extracted text in the local SQLite database and are visible only to their uploading account. Selected text is transmitted to Groq; do not upload confidential, regulated, or sensitive company data. The DLP regex is only a demonstration and cannot guarantee removal of all secrets. No live provider connectors are configured.
+NexaBridge AI represents an effort to transform theoretical AI integration concepts into an interactive working demonstration.
 
+---
 
-## Dynamic CSV Dashboard
-Upload a CSV from Integrations. After upload, the Overview displays real CSV record counts, columns, missing cells, column profiles, up to three frequency charts, and a searchable preview of the first 100 rows. Use the dataset dropdown to switch between your CSV files. Click **Analyze selected CSV with Groq** to open the assistant with the dataset selected. This does not change the five simulated connectors.
+## 👨‍💻 Developer
 
-**Important:** The distributed ZIP intentionally excludes the original SQLite database and real `.env` secrets. Create an account again on a fresh installation, or copy your existing `nexabridge.db` and private `.env` from your old installation to retain your accounts and Groq configuration. Never commit these files to GitHub. The built-in scanner is a demonstration and is not production-grade DLP.
+### Rohan Bhowmik
 
+**AI/ML | Data Science | Generative AI | AI Agents | Web Development**
 
-## New feature labs
-- **AI Data Guardian:** `/api/guardian/<file_id>` locally scans an owned upload and previews redaction. It does **not** automatically sanitize content sent by the AI Assistant; use only safe demonstration data.
-- **AI Workflow Studio:** `/api/workflows/run` simulates role-authorized actions and records per-user history. No live provider writes.
-- **AI Insight Forge:** `/api/insights/<file_id>` computes descriptive CSV findings; the Groq button opens the existing permission-aware assistant with the selected file.
-- Architecture navigation was removed, but `ARCHITECTURE.md` is retained.
+Passionate about developing intelligent systems that solve real-world problems through machine learning, automation, and modern web technologies.
 
+<p align="center">
+  <a href="https://github.com/rohanbhowm25308">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/rohan-bhowmik-b014473a1">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/rohan_._.bhowmik.84/">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
 
-### Voice input and footer
-The AI Assistant includes optional browser speech-to-text. Click **Voice**, speak, review the recognized text in the question field, then click **Ask**. This uses the browser SpeechRecognition API and may rely on the browser vendor’s speech service; audio is not uploaded to this Flask application. Browser microphone permissions and speech recognition support are required. The footer includes the developer’s public social links.
+---
+
+## ⭐ Support the Project
+
+If NexaBridge AI inspires you or helps you explore enterprise AI integration, consider giving this repository a **⭐ Star**.
+
+Contributions, feedback, and suggestions are welcome.
+
+---
+
+<p align="center">
+  <b>🌐 NEXABRIDGE AI</b>
+</p>
+
+<p align="center">
+  <i>Built with Innovation, Powered by AI, Engineered for Secure Intelligence.</i>
+</p>
+
+<p align="center">
+  <b>Developed by Rohan Bhowmik</b>
+</p>
+
+<p align="center">
+  <a href="https://nexabridge-ai.onrender.com">🚀 Experience the Live Platform</a>
+</p>
