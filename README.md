@@ -334,7 +334,3 @@ Contributions, feedback, and suggestions are welcome.
 <p align="center">
   <b>Developed by Rohan Bhowmik</b>
 </p>
-
-<p align="center">
-  <a href="https://nexabridge-ai.onrender.com">🚀 Experience the Live Platform</a>
-</p>
